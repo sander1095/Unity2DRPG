@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 4-2-2016 10:58:46-->
+<!--Last exported: 5-2-2016 14:25:49-->
 <Tiled2Unity version="1.0.3.0">
   <AssignMaterial mesh="mesh_0001" material="roguelikeSheet_transparent" />
   <AssignMaterial mesh="mesh_0002" material="roguelikeSheet_transparent" />
   <AssignMaterial mesh="mesh_0003" material="roguelikeSheet_transparent" />
-  <Prefab name="test_area" numTilesWide="75" numTilesHigh="75" tileWidth="16" tileHeight="16" exportScale="1" mapWidthInPixels="1200" mapHeightInPixels="1200">
+  <Prefab name="test_area" numTilesWide="75" numTilesHigh="75" tileWidth="16" tileHeight="16" exportScale="1" mapWidthInPixels="1200" mapHeightInPixels="1200" scale=".0625">
     <GameObject name="Tilelaag 1" x="0" y="0">
       <GameObject name="roguelikeSheet_transparent" copy="mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
       <GameObject name="Collision">
         <PolygonCollider2D>
-          <Path>384,-448 368,-448 368,-464 288,-464 288,-448 272,-448 272,-527 288,-527 288,-528 384,-528</Path>
+          <Path>384,-448 272,-448 272,-527 288,-527 288,-528 384,-528</Path>
         </PolygonCollider2D>
       </GameObject>
     </GameObject>
@@ -19,23 +19,23 @@
       <GameObject name="roguelikeSheet_transparent" copy="mesh_0002" sortingLayerName="" sortingOrder="1" opacity="1" />
     </GameObject>
     <GameObject name="Objects" x="0" y="0">
-      <GameObject name="roguelikeSheet_transparent" copy="mesh_0003" sortingLayerName="" sortingOrder="2" opacity="1" />
+      <GameObject name="roguelikeSheet_transparent" copy="mesh_0003" sortingLayerName="WorldObjects" sortingOrder="2" opacity="1" />
       <GameObject name="Collision">
         <PolygonCollider2D>
-          <Path>671,-320 656,-320 656,-335 671,-335</Path>
-          <Path>383,-336 368,-336 368,-351 383,-351</Path>
-          <Path>655,-369 639,-369 639,-384 655,-384</Path>
-          <Path>431,-401 415,-401 415,-416 431,-416</Path>
-          <Path>543,-416 528,-416 528,-431 543,-431</Path>
-          <Path>751,-433 735,-433 735,-448 751,-448</Path>
-          <Path>671,-480 656,-480 656,-495 671,-495</Path>
-          <Path>543,-497 527,-497 527,-512 543,-512</Path>
-          <Path>431,-576 416,-576 416,-591 431,-591</Path>
-          <Path>559,-576 544,-576 544,-591 559,-591</Path>
-          <Path>303,-592 288,-592 288,-607 303,-607</Path>
-          <Path>655,-593 639,-593 639,-608 655,-608</Path>
-          <Path>479,-625 463,-625 463,-640 479,-640</Path>
-          <Path>671,-656 656,-656 656,-671 671,-671</Path>
+          <Path>672,-320 656,-320 656,-331 672,-331</Path>
+          <Path>384,-336 368,-336 368,-347 384,-347</Path>
+          <Path>656,-369 640,-369 640,-381 656,-381</Path>
+          <Path>432,-401 416,-401 416,-413 432,-413</Path>
+          <Path>544,-416 528,-416 528,-427 544,-427</Path>
+          <Path>752,-433 736,-433 736,-445 752,-445</Path>
+          <Path>672,-480 656,-480 656,-491 672,-491</Path>
+          <Path>544,-497 528,-497 528,-509 544,-509</Path>
+          <Path>432,-576 416,-576 416,-588 432,-588</Path>
+          <Path>560,-576 544,-576 544,-588 560,-588</Path>
+          <Path>304,-592 288,-592 288,-604 304,-604</Path>
+          <Path>656,-593 640,-593 640,-605 656,-605</Path>
+          <Path>480,-625 464,-625 464,-637 480,-637</Path>
+          <Path>672,-656 656,-656 656,-668 672,-668</Path>
         </PolygonCollider2D>
       </GameObject>
     </GameObject>

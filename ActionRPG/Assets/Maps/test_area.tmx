@@ -60,7 +60,7 @@
   <tile id="522" terrain=",,0,"/>
   <tile id="526">
    <objectgroup draworder="index">
-    <object id="0" x="0" y="1" width="16.3478" height="12"/>
+    <object id="0" x="0" y="1" width="16.3478" height="15"/>
    </objectgroup>
   </tile>
   <tile id="575" terrain="0,,0,0"/>
@@ -73,7 +73,7 @@
   <tile id="636" terrain="0,,,"/>
   <tile id="643">
    <objectgroup draworder="index">
-    <object id="0" x="0.5" y="0.0434783" width="15.6304" height="11.9565"/>
+    <object id="0" x="0.5" y="0.0434783" width="15.6304" height="15.9787"/>
    </objectgroup>
   </tile>
  </tileset>
@@ -13545,7 +13545,7 @@
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
-   <tile gid="0"/>
+   <tile gid="527"/>
    <tile gid="0"/>
    <tile gid="0"/>
    <tile gid="0"/>
